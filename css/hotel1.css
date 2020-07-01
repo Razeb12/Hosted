@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    
+}
+.navbar{
+    padding: 1.2rem;
+
+}
+.nav-head{
+    color: yellow;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}
+.nav-head:hover{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar-toggler{
+    background-color: Red;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+
+}
+.nav-link {
+  font-size: 1;
+  font-weight: bolder;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover{
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.box {
+    background-image: url(/images/hotels-page/Hero.png);
+    height: 700px;
+    width: 100%;
+}
+.form-input {
+    border-radius: 15px;
+    width: 200px;
+    padding: 5px;
+}
+.cardholder .card-img-top {
+    height: 5rem;
+}
+.cardholder .room-card {
+    width: 350px;
+}
+.cardholder .room-card:hover {
+    transform: scale(1.001);
+  -webkit-transform: scale(1.1);
+  background: yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.pagination{
+    margin: auto;
+    align-content: center;
+}
+
+.hotels-footer{
+    width: 100%;
+}
+footer {
+    margin-top: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 30px;
+}
+
+footer input.form-control {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #fff !important;
+}
+
+footer .footer-btn {
+    background-color: #EBC154;
+    color: #fff;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer input.form-control:focus {
+    outline: none !important;
+
+}
+
+.footer-nav-link {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer hr {
+    border: 0.5px solid #fff;
+    margin-top: 0;
+}
+
+footer .social-icons div {
+    background-color: #EBC154;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+footer .social-links i {
+    color: #fff;
+    font-size: 18px;
+}
+
+footer .footer-navigation {
+    padding: 0 40px;
+    margin-top: 92px;
+}
+
+@media only screen and (max-width: 990px) {
+    .cardholder .room-card {
+        width: 100%;
+        
+    }
+    .form-input {
+        border-radius: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 752px) {
+    .cardholder .room-card {
+        width: 100%;
+    }
+    .form-input {
+        border-radius: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 5)
+    }
+}
+
+
